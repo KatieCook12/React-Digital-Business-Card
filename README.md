@@ -4,6 +4,8 @@ A digital business card built with React, showcasing personal contact details, a
 
 Creating my first React component taught me the fundamentals of building reusable UI elements using JSX and JavaScript. I learned how to define functional components, pass data through props, and use class names for styling with CSS. It also helped me understand the structure of a React app, how components are rendered in the DOM, and how to break down a user interface into small, manageable pieces. Overall, it was a great introduction to thinking in components and organising code for maintainability and scalability.
 
+<img src="src/images/sarah-smith-digital-business-card.png" alt="Sarah smith digital business card" width="400">
+
 ---
 
 ## 🛠 Tech Stack
