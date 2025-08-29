@@ -61,8 +61,8 @@ export default function TriangleBackground() {
             y2="0" 
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EDEDED" stop-opacity="0" />
-            <stop offset="0.600962" stop-color="#EDEDED" />
+            <stop stop-color="#EDEDED" stop-opacity="0"/>
+            <stop offset="0.756532" stop-color="#E8E8E8"/>
           </linearGradient>
         </defs>
       </svg>

@@ -26,7 +26,7 @@ function App() {
             <div className="business-card">
 
                 {/* Top section side of the card containing user's information */}
-                <section className="information-div">
+                <section className="information">
 
                     {/* Profile picture and header (name + title) */}
                     <div className='profile-information' aria-label='Profile information'>
