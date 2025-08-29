@@ -56,6 +56,7 @@ Creating my first React component taught me the fundamentals of building reusabl
 - Make the "Visit Website" button functional  
 - Use PropTypes or TypeScript for better type checking  
 - Add unit tests for component behavior
+- Add more accessibility features
 
 ---
 
