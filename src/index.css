@@ -83,7 +83,7 @@ h3 {
 .name {
   color: #232323;
   font-family: Roboto;
-  font-size: 48px;
+  font-size: 3em;
   font-style: normal;
   font-weight: 500;
   line-height: 70px;
@@ -104,7 +104,7 @@ h3 {
 .job-title {
   color: #232323;
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 1.25em;
   font-style: normal;
   font-weight: 700;
   line-height: 31px;
@@ -157,7 +157,7 @@ h3 {
 .contact-details {
   color: #232323;
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 1.25em;
   font-style: normal;
   font-weight: 400;
   line-height: 31px;
@@ -187,7 +187,7 @@ h3 {
   border-radius: 100px;
   background: linear-gradient(90deg, #7244D1 0%, rgba(114, 68, 209, 0.75) 100%);
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 1.25em;
   font-style: normal;
   font-weight: 600;
   line-height: 31px;
@@ -221,7 +221,7 @@ h3 {
   /* Text inside the footer */
   color: #F7F7F7;
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 1.25em;
   font-style: normal;
   font-weight: 600;
   line-height: 31px;
