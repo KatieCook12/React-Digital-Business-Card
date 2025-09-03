@@ -13,8 +13,7 @@ h3 {
 /* Main container for the business card */
 .business-card {
   display: flex;
-  width: 600px;
-  height: 1060px;
+  width: 1290px;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -45,14 +44,15 @@ h3 {
 /* Container for profile, contact details, and button */
 .information {
   z-index: 2;
+  box-sizing: border-box;
+  height: 2275px;
   display: flex;
-  height: 848px;
-  padding: 65px 121px;
+  padding: 220px 260.15px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   align-self: stretch;
-  box-sizing: border-box;
 }
 
 /* Container for profile image and name/title */
@@ -60,15 +60,15 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 68px;
 }
 
 /* Circular profile image with background */
 .profile-image {
   aspect-ratio: 1;
-  width: 230px;
+  width: 573px;
   border-radius: 50%;
-  border: 10px solid #EDEDED;
+  border: 26px solid #EDEDED;
 }
 
 /* Container for name and job title */
@@ -82,20 +82,20 @@ h3 {
 /* Large uppercase name styling */
 .name {
   color: #232323;
+  text-align: center;
   font-family: Roboto;
-  font-size: 3em;
+  font-size: 6.5em;
   font-style: normal;
-  font-weight: 500;
-  line-height: 70px;
-  /* 148.936% */
-  letter-spacing: 4.7px;
+  font-weight: 600;
+  line-height: 151px; /* 145.833% */
+  letter-spacing: 10px;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 /* Horizontal line under name */
 .stroke {
-  height: 1px;
+  height: 4px;
   width: 100%;
   background-color: #C5C5C5;
 }
@@ -103,12 +103,13 @@ h3 {
 /* Job title under name */
 .job-title {
   color: #232323;
+  text-align: center;
   font-family: Nunito;
-  font-size: 1.25em;
+  font-size: 2.8em;
   font-style: normal;
-  font-weight: 700;
-  line-height: 31px;
-  /* 134.783% */
+  font-weight: 800;
+  line-height: 67px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -118,7 +119,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 18px;
+  gap: 50px;
 }
 
 /* ===========================
@@ -128,8 +129,8 @@ h3 {
 /* Icon background circle */
 .image-container {
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 122px;
+  height: 122px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -141,7 +142,7 @@ h3 {
 
 /* Icon image inside contact circle */
 .contact-icon {
-  width: 20px;
+  width: 58px;
   aspect-ratio: 1;
   object-fit: contain;
 }
@@ -157,11 +158,11 @@ h3 {
 .contact-details {
   color: #232323;
   font-family: Nunito;
-  font-size: 1.25em;
+  font-size: 2.8em;
   font-style: normal;
-  font-weight: 400;
-  line-height: 31px;
-  /* 140.909% */
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 1px;
 }
 
 /* Vertical stack of all contact details */
@@ -169,7 +170,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
+  gap: 60px;
 }
 
 /* ===========================
@@ -179,26 +180,26 @@ h3 {
 /* Button linking to the website */
 .visit-website-button {
   display: flex;
-  padding: 20px 48px;
+  padding: 43px 103.2px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 21.5px;
   color: #F7F7F7;
   border-radius: 100px;
   background: linear-gradient(90deg, #7244D1 0%, rgba(114, 68, 209, 0.75) 100%);
   font-family: Nunito;
-  font-size: 1.25em;
+  font-size: 2.8em;
   font-style: normal;
-  font-weight: 600;
-  line-height: 31px;
-  /* 134.783% */
+  font-weight: 800;
+  line-height: 67px; /* 148.111% */
+  letter-spacing: 5px;
   text-transform: uppercase;
   border: none !important;
   white-space: nowrap;
 }
 
-/* Button linking to the website in hover state*/
-.visit-website-button:hover{
+/* Button linking to the website in hover state */
+.visit-website-button:hover {
   background: linear-gradient(90deg, #5D38AB 0%, rgba(93, 56, 171, 0.70) 100%);
   cursor: pointer;
 }
@@ -211,20 +212,19 @@ h3 {
 .footer {
   display: flex;
   box-sizing: border-box;
-  height: 212px;
-  padding: 55px 121px;
+  padding: 140px 260.15px;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  gap: 110px;
   align-self: stretch;
   background: linear-gradient(182deg, rgba(114, 68, 209, 0.70) 1.53%, #7244D1 98.47%);
-  /* Text inside the footer */
   color: #F7F7F7;
   font-family: Nunito;
-  font-size: 1.25em;
+  font-size: 2.8em;
   font-style: normal;
   font-weight: 600;
-  line-height: 31px;
+  line-height: 67px; /* 148.111% */
+  letter-spacing: 1px;
 }
 
 /* Social media icons layout */
@@ -241,5 +241,5 @@ h3 {
 
 /* Each individual social media icon */
 .social-media-icon {
-  height: 25px;
+  height: 58px;
 }
